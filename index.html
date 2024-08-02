@@ -1,197 +1,207 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
 
-        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
 
+    <link href="./style.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
 
-        <link href="./style.css" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-     </head>
+  <body>
+    <div id="black_navbar">
+      <p>
+        <b>Join us for a live Typeform for Growth demo 📈</b>
+        <a
+          id="link_topnavbar"
+          href="https://successteam.typeform.com/to/abUO2p9C"
+          ><b>Save your spot</b></a
+        >
+      </p>
+    </div>
 
-    <body>
-        <div id="black_navbar">
-            <p><b>Join us for a live Typeform for Growth demo 📈</b> <a id="link_topnavbar" href="https://successteam.typeform.com/to/abUO2p9C"><b>Save your spot</b></a></p>
+    <div id="container">
+      <div id="main_menu">
+        <!--Typeform Logo-->
+        <div id="logo">
+          <a href="https://www.typeform.com/"
+            ><img id="img_logo" src="./image/typeform_logo.png"
+          /></a>
         </div>
 
-        <div id="container">
-            <div id="main_menu">
-                <!--Typeform Logo-->
-                <div id="logo">
-                    <a href="https://www.typeform.com/"><img id="img_logo" src="./image/typeform_logo.png"></a>
+        <!--Navigation Bar-->
+        <div id="navigationBar">
+          <div class="downMenu">
+            <a style="text-decoration: none" href="#">
+              <div class="dropdown-content_div_a" style="display: flex">
+                <p style="margin-right: 10px">Products</p>
+                <img
+                  class="dropdown-content_div_img"
+                  src="./image/chevron-down.svg"
+                  onmouseover="this.src='./image/chevron-up.svg';"
+                  onmouseout="this.src='./image/chevron-down.svg';"
+                />
+              </div>
+            </a>
+
+            <div class="downMenu-content">
+              <div class="megaMenu">
+                <!--items in mega menu products/ column 1-->
+                <div class="menuCol">
+                  <span class="menuCol-span">Product Overview</span>
+                  <img
+                    class="menuCol-img"
+                    src="./image/products_overview_1.png"
+                  />
+                  <p class="menuCol-description">
+                    New to Typeform? Get started with refreshingly different
+                    forms.
+                  </p>
                 </div>
 
+                <!--items in mega menu products/ column 2-->
+                <div class="menuCol">
+                  <span class="menuCol-span">FOR ENTERPRISE</span>
+                  <img
+                    class="menuCol-img"
+                    src="./image/products_overview_2.png"
+                  />
+                  <p class="menuCol-description">
+                    Explore enterprise-grade features that help you stay secure,
+                    compliant, and on brand.
+                  </p>
+                </div>
 
-                <!--Navigation Bar-->
-                <div id="navigationBar">
-                    
-                        <div class="downMenu">
-                           
+                <!--draw a vertical Line-->
 
-                            <a style=" text-decoration: none;"  href="#">
-                                <div class="dropdown-content_div_a" style="display: flex;" >
-                                    <p style="margin-right: 10px;">Products</p>
-                                    <img class="dropdown-content_div_img" src="./image/chevron-down.svg" onmouseover="this.src='./image/chevron-up.svg';" onmouseout="this.src='./image/chevron-down.svg';">
-                                </div>
-                            </a>
+                <div class="vl"></div>
 
-                            <div class="downMenu-content">
-                               
-                                <div class="megaMenu">
+                <!--items in mega menu products/ column 2-->
+                <div class="menuCol">
+                  <span class="menuCol-span">WHAT'S NEW</span>
+                  <div class="menuCol-new-product">
+                    <div>
+                      <img src="./image/typeform-for-growth.png" />
+                    </div>
+                    <div>
+                      <p>Typeform for Growth</p>
+                      <p>For B2B marketers</p>
+                    </div>
+                  </div>
+                  <div class="menuCol-new-product">
+                    <div>
+                      <img src="./image/hubspot-integration.png" />
+                    </div>
+                    <div>
+                      <p>Hupspot Integrations</p>
+                      <p>Lead management made simple</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="downMenu">
+            <a style="text-decoration: none" href="#">
+              <div class="dropdown-content_div_a" style="display: flex">
+                <p style="margin-right: 10px">Solutions</p>
+                <img
+                  class="dropdown-content_div_img"
+                  src="./image/chevron-down.svg"
+                  onmouseover="this.src='./image/chevron-up.svg';"
+                  onmouseout="this.src='./image/chevron-down.svg';"
+                />
+              </div>
+            </a>
 
-                                          <!--items in mega menu products/ column 1-->
-                                    <div class="menuCol">
-                                        <span class="menuCol-span">Product Overview</span>
-                                        <img class="menuCol-img" src="./image/products_overview_1.png">
-                                        <p class="menuCol-description">New to Typeform? Get started with refreshingly different forms.</p>
-                                    
-                                    </div>
-            
-                                    <!--items in mega menu products/ column 2-->
-                                    <div class="menuCol">
-                                        <span class="menuCol-span">FOR ENTERPRISE</span>
-                                        <img class="menuCol-img"  src="./image/products_overview_2.png">
-                                        <p class="menuCol-description">Explore enterprise-grade features that help you stay secure, compliant, and on brand.</p>
-                                    
-                                    </div>
+            <div class="downMenu-content">
+              <div class="megaMenu">
+                <div class="menuCol-solutions">
+                  <div class="menuCol-solutions-icon">
+                    <img src="./image/user.svg" />
+                    <span class="menuCol-span">BY TEAM</span>
+                  </div>
+                  <p>Marketing</p>
+                  <p>Product</p>
+                  <p>Human resources</p>
+                  <p>Customer success</p>
+                  <p>Business</p>
+                </div>
 
-                                    <!--draw a vertical Line-->
+                <div class="vl"></div>
 
-                                    <div class="vl"></div>
+                <div class="menuCol-solutions">
+                  <div class="menuCol-solutions-icon">
+                    <img src="./image/bar-chart.svg" />
+                    <span class="menuCol-span">BY GOAL</span>
+                  </div>
+                  <p>Acquire cutomers</p>
+                  <p>Get feedback</p>
+                  <p>Do research</p>
+                  <p style="color: white">.</p>
+                  <p style="color: white">.</p>
+                </div>
 
+                <div class="vl"></div>
 
-                                     <!--items in mega menu products/ column 2-->
-                                     <div class="menuCol">
-                                        <span class="menuCol-span">WHAT'S NEW</span>
-                                        <div class="menuCol-new-product">
-                                            <div>
-                                                <img src="./image/typeform-for-growth.png">
-                                            </div>
-                                            <div>
-                                                <p>Typeform for Growth</p>
-                                                <p>For B2B marketers</p>
-                                            </div>
-                                        </div>
-                                        <div class="menuCol-new-product">
-                                            <div>
-                                                <img src="./image/hubspot-integration.png">
-                                            </div>
-                                            <div>
-                                                <p>Hupspot Integrations</p>
-                                                <p>Lead management made simple</p>
-                                            </div>
-                                        
-                                        </div>
-                                       
-                                    </div>
+                <div class="menuCol-solutions">
+                  <div
+                    class="menuCol-solutions-icon"
+                    style="margin-bottom: 10px; margin-top: -95px"
+                  >
+                    <img src="./image/command.svg" />
+                    <span class="menuCol-span">BY WORKFLOW</span>
+                  </div>
+                  <div class="menuCol-solutions-products-icon">
+                    <div class="menuCol-solutions-products-icon-row">
+                      <img
+                        src="./image/zapier-logo.svg"
+                        style="width: 60px; height: 50px"
+                      />
+                      <img
+                        src="./image/Google_analytics_logo.png"
+                        style="width: 50px; height: 50px"
+                      />
+                      <img
+                        src="./image/Google_sheets_logo.png"
+                        style="width: 50px; height: 50px"
+                      />
+                    </div>
+                    <div class="menuCol-solutions-products-icon-row">
+                      <img
+                        src="./image/hubspot-logo (1).svg"
+                        style="width: 60px; height: 50px"
+                      />
+                      <img
+                        src="./image/Slack_logo.png"
+                        style="width: 50px; height: 50px"
+                      />
+                      <img
+                        src="./image/Salesforce_logo.png"
+                        style="width: 50px; height: 50px"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="downMenu">
+            <a style="text-decoration: none" href="#">
+              <div class="dropdown-content_div_a" style="display: flex">
+                <p style="margin-right: 10px">Resources&Support</p>
+                <img
+                  class="dropdown-content_div_img"
+                  src="./image/chevron-down.svg"
+                  onmouseover="this.src='./image/chevron-up.svg';"
+                  onmouseout="this.src='./image/chevron-down.svg';"
+                />
+              </div>
+            </a>
 
-
-                                    
-                                  
-            
-            
-            
-                              </div>
-
-                            </div>
-                                
-
-                               
-
-                            </div>
-
-
-
-
-
-
-                            <div class="downMenu">
-
-                                <a style=" text-decoration: none;"  href="#">
-                                    <div class="dropdown-content_div_a" style="display: flex;" >
-                                        <p style="margin-right: 10px;">Solutions</p>
-                                        <img class="dropdown-content_div_img" src="./image/chevron-down.svg" onmouseover="this.src='./image/chevron-up.svg';" onmouseout="this.src='./image/chevron-down.svg';">
-                                    </div>
-                                </a>
-
-                                <div class="downMenu-content">
-
-                                    <div class="megaMenu">
-
-                                        <div class="menuCol-solutions">
-                                            <div class="menuCol-solutions-icon">
-                                                <img src="./image/user.svg">
-                                                <span class="menuCol-span">BY TEAM</span>
-                                            
-                                            </div>
-                                            <p>Marketing</p>
-                                            <p>Product</p>
-                                            <p>Human resources</p>
-                                            <p>Customer success</p>
-                                            <p>Business</p>
-                                            
-                                        </div>
-
-                                        <div class="vl"></div>
-
-                                        <div class="menuCol-solutions" >
-                                            <div class="menuCol-solutions-icon">
-                                                <img src="./image/bar-chart.svg">
-                                                <span class="menuCol-span">BY GOAL</span>
-                                            </div>
-                                            <p>Acquire cutomers</p>
-                                            <p>Get feedback</p>
-                                            <p>Do research</p>
-                                            <p style="color: white;">.</p>
-                                            <p style="color: white;">.</p>
-                                        </div>
-
-                                        <div class="vl"></div>
-
-
-                                        <div class="menuCol-solutions">
-                                            <div class="menuCol-solutions-icon" style="margin-bottom: 10px; margin-top: -95px;">
-                                                <img src="./image/command.svg">
-                                                <span class="menuCol-span">BY WORKFLOW</span>
-                                            </div>
-                                            <div class="menuCol-solutions-products-icon">
-                                                <div class="menuCol-solutions-products-icon-row">
-                                                    <img src="./image/zapier-logo.svg" style=" width: 60px; height: 50px; ">
-                                                    <img src="./image/Google_analytics_logo.png"  style="width: 50px; height: 50px; ">
-                                                    <img src="./image/Google_sheets_logo.png"  style=" width: 50px; height: 50px; ">
-                                                </div>
-                                                <div class="menuCol-solutions-products-icon-row">
-                                                    <img src="./image/hubspot-logo (1).svg"  style="width: 60px; height: 50px;">
-                                                    <img src="./image/Slack_logo.png"  style="width: 50px; height: 50px; ">
-                                                    <img src="./image/Salesforce_logo.png" style="width: 50px; height: 50px; ">
-                                                </div>
-
-                                            </div>
-                                           
-                                        </div>
-
-
-
-
-                                    </div>
-
-                                </div>
-
-                            </div>
-
-
-
-                            <div class="downMenu">    
-                                <a style=" text-decoration: none;"  href="#">
-                                    <div class="dropdown-content_div_a" style="display: flex;" >
-                                        <p style="margin-right: 10px;">Resources&Support</p>
-                                        <img class="dropdown-content_div_img" src="./image/chevron-down.svg" onmouseover="this.src='./image/chevron-up.svg';" onmouseout="this.src='./image/chevron-down.svg';">
-                                    </div>
-                                </a>
-
-                                <!--
+            <!--
                                 <div class="downMenu-content">
 
                                     <div class="megaMenu">
@@ -250,887 +260,1107 @@
 
                                 </div>
                                 -->
+          </div>
 
-                            </div>
-
-
-                            
-                            <a style=" text-decoration: none;"  href="#">
-                                <div class="dropdown-content_div_a" style="display: flex;">
-                                    <p style="margin-right: 10px;">Templates</p>
-                                    <img class="dropdown-content_div_img" src="./image/chevron-down.svg" onmouseover="this.src='./image/chevron-up.svg';" onmouseout="this.src='./image/chevron-down.svg';">
-                                </div>
-                            </a>
-
-                            <a style=" text-decoration: none;"  href="#">
-                                <div class="dropdown-content_div_a" style="display: flex;">
-                                    <p style="margin-right: 10px;">Integrations</p>
-                                    <img class="dropdown-content_div_img" src="./image/chevron-down.svg" onmouseover="this.src='./image/chevron-up.svg';" onmouseout="this.src='./image/chevron-down.svg';">
-                                </div>
-                            </a>
-                        
-                            
-
-
-                          
-
-
-
-
-                            <a style=" text-decoration: none;" href="#">
-                                <div class="dropdown-content_div_a" style="display: flex;">
-                                    <p style="margin-right: 10px;">Pricing</p>
-                                </div>
-                            </a>
-
-
-
-
-                   
-
-
-
-
-
-                </div>
-
-
-
-
-
-                <!--login/signup-->
-                <div id="user_auth">
-                    <div id="login">
-                        <a id="login_a" style="text-decoration: none; color: #3c3b3b;" href="https://admin.typeform.com/login">Log in</a>
-                    </div>
-                    <div id="signup">
-                        <a style="text-decoration: none; color: white;" href="https://www.typeform.com/signup/">Sign up</a>
-                    </div>
-                </div>
+          <a style="text-decoration: none" href="#">
+            <div class="dropdown-content_div_a" style="display: flex">
+              <p style="margin-right: 10px">Templates</p>
+              <img
+                class="dropdown-content_div_img"
+                src="./image/chevron-down.svg"
+                onmouseover="this.src='./image/chevron-up.svg';"
+                onmouseout="this.src='./image/chevron-down.svg';"
+              />
             </div>
-        </div>
+          </a>
+
+          <a style="text-decoration: none" href="#">
+            <div class="dropdown-content_div_a" style="display: flex">
+              <p style="margin-right: 10px">Integrations</p>
+              <img
+                class="dropdown-content_div_img"
+                src="./image/chevron-down.svg"
+                onmouseover="this.src='./image/chevron-up.svg';"
+                onmouseout="this.src='./image/chevron-down.svg';"
+              />
+            </div>
+          </a>
+
+          <a style="text-decoration: none" href="#">
+            <div class="dropdown-content_div_a" style="display: flex">
+              <p style="margin-right: 10px">Pricing</p>
+            </div>
+          </a>
         </div>
 
+        <!--login/signup-->
+        <div id="user_auth">
+          <div id="login">
+            <a
+              id="login_a"
+              style="text-decoration: none; color: #3c3b3b"
+              href="https://admin.typeform.com/login"
+              >Log in</a
+            >
+          </div>
+          <div id="signup">
+            <a
+              style="text-decoration: none; color: white"
+              href="https://www.typeform.com/signup/"
+              >Sign up</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-        <div id="main_section">
-            <div id="left_section">
-                <video  height="550px" src="./video/1.webm"  autoplay muted loop></video>
-            </div>
-            <div id="right_section">
-                <p style=" font-size: 69px; font-weight: 500; margin-bottom: 10px">Make forms
-                    worth filling out</p>
-
-                    <p style="font-size: 20px; padding-top: 5px;">Get more data—like signups, feedback, and anything else—with forms designed to be <b>refreshingly different.</b></p>
-
-                    <button style="text-decoration: none;" id="get_started_btn"><b><a style="text-decoration: none; color: white;" href="https://www.typeform.com/signup/">Get started—it's free</a></b></button>
-
-
-            </div>
+    <div id="main_section">
+      <div id="left_section">
+        <video src="./video/1.webm" autoplay muted loop></video>
+      </div>
+      <div id="right_section">
+        <div>
+          <h2>Make forms worth filling out</h2>
         </div>
 
-        <div id="third_Section">
-            <div id="rate_text">
-                <p>Rated 4.5 out of 600+ reviews on G2.com and trusted by
-    
-                </p>
-            </div>
-            <div id="other_companies_logos">
-                <img style="margin-right: 90px;" width="100px" height="50px" src="./image/airbnb.png">
-                <img style="margin-right: 90px;" width="120px" height="40px" src="./image/mailchimp.png">
-                <img style="margin-right: 90px;" width="120px" height="40px" src="./image/Hermes.png">
-                <img style="margin-right: 90px;" width="110px" height="35px" src="./image/hubspot.png">
-                <img style="margin-right: 90px;" width="100px" height="27px" src="./image/Barru's.png">
-    
-            </div>
+        <div>
+          <p>
+            Get more data—like signups, feedback, and anything else—with forms
+            designed to be <b>refreshingly different.</b>
+          </p>
         </div>
 
-        <div id="forth_section_title" >
-            <p id="forth_section_text">Refreshingly different,</p>
-            <p style="margin-bottom: 120px;" id="forth_section_text">by design</p>
-            </div>
+        <div>
+          <button style="text-decoration: none" id="get_started_btn">
+            <b>
+              <a
+                style="text-decoration: none; color: white"
+                href="https://www.typeform.com/signup/"
+                >Get started—it's free</a
+              ></b
+            >
+          </button>
+        </div>
+      </div>
+    </div>
 
-        <div id="forth_section">
-            <div id="forth_left_section">
+    <div id="third_Section">
+      <div id="rate_text">
+        <p>Rated 4.5 out of 600+ reviews on G2.com and trusted by</p>
+      </div>
+      <div id="other_companies_logos">
+        <img
+          style="margin-right: 90px"
+          width="100px"
+          height="50px"
+          src="./image/airbnb.png"
+        />
+        <img
+          style="margin-right: 90px"
+          width="120px"
+          height="40px"
+          src="./image/mailchimp.png"
+        />
+        <img
+          style="margin-right: 90px"
+          width="120px"
+          height="40px"
+          src="./image/Hermes.png"
+        />
+        <img
+          style="margin-right: 90px"
+          width="110px"
+          height="35px"
+          src="./image/hubspot.png"
+        />
+        <img
+          style="margin-right: 90px"
+          width="100px"
+          height="27px"
+          src="./image/Barru's.png"
+        />
+      </div>
+    </div>
 
-                <p style=" font-size: 50px; font-weight: 400; margin-bottom: 10px">Looks striking. Feels effortless.</p>
+    <div id="forth_section_title">
+      <p id="forth_section_text">Refreshingly different,</p>
+      <p style="margin-bottom: 120px" id="forth_section_text">by design</p>
+    </div>
 
-                    <p style="font-size: 20px; padding-top: 5px;"><b>Impress your form takers.</b> Catch their eye with striking visuals, and make form-filling feel effortless by replacing walls of questions with just one at a time.</p>
+    <div id="forth_section">
+      <div id="forth_left_section">
+        <div><h2>Looks striking. Feels effortless.</h2></div>
 
-                    
-                    <button style="text-decoration: none; width: 150px;" id="forth_section_signup_btn"><b>
-                        <a style="text-decoration: none; color: white;" href="https://www.typeform.com/signup/">sign up</a></b></button>
-
-                    
-                    
-
-                  </div>
-            <div id="forth_right_section">
-
-                <video  height="500px" src="./video/2.webm"  autoplay muted loop></video>
-          
-               
-
-            </div>
+        <div>
+          <p>
+            <b>Impress your form takers.</b> Catch their eye with striking
+            visuals, and make form-filling feel effortless by replacing walls of
+            questions with just one at a time.
+          </p>
         </div>
 
-
-
-        <div id="fifth_section" style="margin-top: 200px;">
-            <div id="fifth_left_section">
-
-                <video  height="500px" src="./video/3.webm"  autoplay muted loop></video>
-
-               
-                    
-
-                  </div>
-            <div id="fifth_right_section" >
-
-                <p style=" font-size: 50px; font-weight: 400; margin-bottom: 10px">Embeds smoothly. Reveals more.</p>
-
-                <p style="font-size: 20px; padding-top: 5px;"><b>Collect more and better data.</b> Embed forms where people see them, from web to email. Ask the right follow-up question at the right time to reveal deeper insights.</p>
-
-                
-                <button style="text-decoration: none; width: 150px;" id="forth_section_signup_btn"><b>
-                    <a style="text-decoration: none; color: white;" href="https://www.typeform.com/signup/">sign up</a></b></button>
-
-                
-
-                
-          
-               
-
-            </div>
+        <div>
+          <button
+            style="text-decoration: none; width: 150px"
+            id="forth_section_signup_btn"
+          >
+            <b>
+              <a
+                style="text-decoration: none; color: white"
+                href="https://www.typeform.com/signup/"
+                >sign up</a
+              ></b
+            >
+          </button>
         </div>
-        
+      </div>
+      <div id="forth_right_section">
+        <video src="./video/2.webm" autoplay muted loop></video>
+      </div>
+    </div>
 
-        <div style="height: 80px;"></div>
+    <div id="fifth_section" >
+      <div id="fifth_left_section">
+        <video  src="./video/3.webm" autoplay muted loop></video>
+      </div>
+      <div id="fifth_right_section">
+        <p>
+          Embeds smoothly. Reveals more.
+        </p>
 
-        <div class="sixth_ection">
+        <p>
+          <b>Collect more and better data.</b> Embed forms where people see
+          them, from web to email. Ask the right follow-up question at the right
+          time to reveal deeper insights.
+        </p>
 
-            <div class="sixth_ection-textbox">
-                <p>
-                    Works with your existing workflow
-                </p>
-                <a href="#">
-                    <b>Browse 120+ integrations
-                    </b>
-                </a>
-            </div>
+        <button
+          style="text-decoration: none; width: 150px"
+          id="forth_section_signup_btn"
+        >
+          <b>
+            <a
+              style="text-decoration: none; color: white"
+              href="https://www.typeform.com/signup/"
+              >sign up</a
+            ></b
+          >
+        </button>
+      </div>
+    </div>
 
-            <div class="sixth_ection-img_div">
-                <img class="sixth_ection-img" src="./image/zapier-logo-6thsection.svg">
-                <img class="sixth_ection-img" src="./image/calendly-logo-6thection.svg">
-                <img class="sixth_ection-img" src="./image/hubspot-logo-6thsection.svg">
-            </div>
+    <div style="height: 80px"></div>
 
-        </div>
+    <div class="sixth_ection">
+      <div class="sixth_ection-textbox">
+        <p>Works with your existing workflow</p>
+        <a href="#">
+          <b>Browse 120+ integrations </b>
+        </a>
+      </div>
 
-        <div style="height: 80px;"></div>
+      <div class="sixth_ection-img_div">
+        <img
+          class="sixth_ection-img"
+          src="./image/zapier-logo-6thsection.svg"
+        />
+        <img
+          class="sixth_ection-img"
+          src="./image/calendly-logo-6thection.svg"
+        />
+        <img
+          class="sixth_ection-img"
+          src="./image/hubspot-logo-6thsection.svg"
+        />
+      </div>
+    </div>
 
-        <div class="seventh_section_title">
-            <p id="forth_section_text">Do it all with a form</p>
-            <p style=" padding-left: 490px; font-size: 22px; font-weight: 100; letter-spacing: 1px;" >Whatever your goal, start with a ready-made template.</p>
-            
+    <div style="height: 80px"></div>
 
-        </div>
+    <div class="seventh_section_title">
+      <p id="forth_section_text">Do it all with a form</p>
+      <p
+        style="
+          padding-left: 490px;
+          font-size: 22px;
+          font-weight: 100;
+          letter-spacing: 1px;
+        "
+      >
+        Whatever your goal, start with a ready-made template.
+      </p>
+    </div>
 
-        <div style="height: 80px;"></div>
+    <div style="height: 80px"></div>
 
-        <div class="seventh_section">
-
-            <div class="seventh_section_row">
-
-                <div class="seventh_section_row_item">
-                    <p>
-                        Marketing
-                    </p>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">Signups</a>
-                    </div>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">Branding</a>
-                    </div>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">Customer feedback</a>
-                    </div>
-                    
-                </div>
-                
-                <div class="seventh_section_row_item">
-
-                    <p>
-                        Product
-                    </p>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">Beta testing</a>
-                    </div>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">Product research</a>
-                    </div>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">Product feedback</a>
-                    </div>
-
-
-
-
-                </div>
-                
-                <div class="seventh_section_row_item">
-
-                    <p>
-                        Customer success
-                    </p>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">FAQ builder</a>
-                    </div>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">Net promoter score</a>
-                    </div>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">Customer satisfaction</a>
-                    </div>
-
-
-
-                </div>
-            </div>
-
-
-
-            <div class="seventh_section_row">
-
-                <div class="seventh_section_row_item">
-                    <p>
-                        HR
-                    </p>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">Job application</a>
-                    </div>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">360 degree feedback</a>
-                    </div>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">Employee engagement</a>
-                    </div>
-                    
-                </div>
-                
-                <div class="seventh_section_row_item">
-
-                    <p>
-                        Creators
-                    </p>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">Contact details</a>
-                    </div>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">Customer feedback</a>
-                    </div>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">Product recommendation</a>
-                    </div>
-
-
-
-
-                </div>
-                
-                <div class="seventh_section_row_item">
-
-                    <p>
-                        General business
-                    </p>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">Referral</a>
-                    </div>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">Registration</a>
-                    </div>
-                    <div class="seventh_section_row_item_details">
-                        <img src="./image/right-arrow.png">
-                        <a href="#">Client onboarding</a>
-                    </div>
-
-
-
-                </div>
-
-
-
-            </div>
-            
+    <div class="seventh_section">
+      <div class="seventh_section_row">
+        <div class="seventh_section_row_item">
+          <p>Marketing</p>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">Signups</a>
+          </div>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">Branding</a>
+          </div>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">Customer feedback</a>
+          </div>
         </div>
 
-        <div style="height: 80px;"></div>
-
-        <div class="seventh_section_footer">
-            <a href="#">Browse all templates</a>
+        <div class="seventh_section_row_item">
+          <p>Product</p>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">Beta testing</a>
+          </div>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">Product research</a>
+          </div>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">Product feedback</a>
+          </div>
         </div>
 
-        <div style="height: 180px;"></div>
+        <div class="seventh_section_row_item">
+          <p>Customer success</p>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">FAQ builder</a>
+          </div>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">Net promoter score</a>
+          </div>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">Customer satisfaction</a>
+          </div>
+        </div>
+      </div>
 
-        <div class="eighth_section_title">
-            <p id="forth_section_text">Why Typeform?</p>
-            <p style=" padding-left: 600px; font-size: 22px; font-weight: 100; " >Because after switching to us...</p>
-            
-
+      <div class="seventh_section_row">
+        <div class="seventh_section_row_item">
+          <p>HR</p>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">Job application</a>
+          </div>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">360 degree feedback</a>
+          </div>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">Employee engagement</a>
+          </div>
         </div>
 
-        <div style="height: 10px;"></div>
-
-        <div class="eighth_section">
-
-            <div class="eighth_section_item">
-                <p class="eighth_section_item_percent">96%</p>
-                <p class="eighth_section_item_description">of customers say they have a better brand experience</p>
-            </div>
-            <div class="eighth_section_item" style="margin-top: -27px;">
-                <p class="eighth_section_item_percent">95%</p>
-                <p class="eighth_section_item_description">of customers say they gather more data, more easily</p>
-            
-            </div>
-            <div class="eighth_section_item">
-                <p class="eighth_section_item_percent">87%</p>
-                <p class="eighth_section_item_description">of customers say they reveal deeper insights from data</p>
-            
-            </div>
-
+        <div class="seventh_section_row_item">
+          <p>Creators</p>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">Contact details</a>
+          </div>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">Customer feedback</a>
+          </div>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">Product recommendation</a>
+          </div>
         </div>
 
-        <div class="ninth_section">
-            <div class="ninth_section_card">
-                <div class="ninth_section_title">
-                    <p><b>Break the norm of forms</b></p>
-                </div>
-                <div class="ninth_section_description">
-                    <p><b>Our Free Plan lets you:</b></p>
-
-                        <p >Create unlimited forms Access 3,000+ templates Start getting responses</p>
-                </div>
-                <div class="ninth_section_btn">
-                <a id="ninth_section_btn_signup" href="#">Sign up</a>
-                <a id="ninth_section_btn_compareplans" href="#"> Compare plans</a>
-            </div>
+        <div class="seventh_section_row_item">
+          <p>General business</p>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">Referral</a>
+          </div>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">Registration</a>
+          </div>
+          <div class="seventh_section_row_item_details">
+            <img src="./image/right-arrow.png" />
+            <a href="#">Client onboarding</a>
+          </div>
         </div>
+      </div>
+    </div>
+
+    <div style="height: 80px"></div>
+
+    <div class="seventh_section_footer">
+      <a href="#">Browse all templates</a>
+    </div>
+
+    <div style="height: 180px"></div>
+
+    <div class="eighth_section_title">
+      <p id="forth_section_text">Why Typeform?</p>
+      <p style="padding-left: 600px; font-size: 22px; font-weight: 100">
+        Because after switching to us...
+      </p>
+    </div>
+
+    <div style="height: 10px"></div>
+
+    <div class="eighth_section">
+      <div class="eighth_section_item">
+        <p class="eighth_section_item_percent">96%</p>
+        <p class="eighth_section_item_description">
+          of customers say they have a better brand experience
+        </p>
+      </div>
+      <div class="eighth_section_item" style="margin-top: -27px">
+        <p class="eighth_section_item_percent">95%</p>
+        <p class="eighth_section_item_description">
+          of customers say they gather more data, more easily
+        </p>
+      </div>
+      <div class="eighth_section_item">
+        <p class="eighth_section_item_percent">87%</p>
+        <p class="eighth_section_item_description">
+          of customers say they reveal deeper insights from data
+        </p>
+      </div>
+    </div>
+
+    <div class="ninth_section">
+      <div class="ninth_section_card">
+        <div class="ninth_section_title">
+          <p><b>Break the norm of forms</b></p>
         </div>
+        <div class="ninth_section_description">
+          <p><b>Our Free Plan lets you:</b></p>
 
-
-        <div style="height: 120px; background-color: rgb(24, 22, 22);">
-
+          <p>
+            Create unlimited forms Access 3,000+ templates Start getting
+            responses
+          </p>
         </div>
+        <div class="ninth_section_btn">
+          <a id="ninth_section_btn_signup" href="#">Sign up</a>
+          <a id="ninth_section_btn_compareplans" href="#"> Compare plans</a>
+        </div>
+      </div>
+    </div>
 
-        <div class="tenth_section">
-            <div class="tenth_section_box">
+    <div style="height: 120px; background-color: rgb(24, 22, 22)"></div>
 
-                <div class="tenth_section_item">
-                    <div class="tenth_section_item_title"><b>PRODUCT</b>
+    <div class="tenth_section">
+      <div class="tenth_section_box">
+        <div class="tenth_section_item">
+          <div class="tenth_section_item_title"><b>PRODUCT</b></div>
+          <div class="tenth_section_item_details">
+            <ul>
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <b>Pricing</b>
+              </li>
 
-                    </div>
-                    <div class="tenth_section_item_details">
-                        <ul >
-                            <li class="tenth_section_item_details_withoutdropmenu" ><b>Pricing</b></li>
+              <li class="tenth_section_item_li_dropmenu">
+                <div
+                  href="#"
+                  class="tenth_section_item_details_dropdown"
+                  data-toggle="dropdown"
+                >
+                  <b>Enterprice</b>
 
-                            <li class="tenth_section_item_li_dropmenu">
-                                
-                               
-                                    <div href="#" class="tenth_section_item_details_dropdown" data-toggle="dropdown">
-                                        <b>Enterprice</b>
-
-                                   
-                                        <img src="./image/chevron-down-white.svg">
-                                    </div>
-                                        <ul class="dropdown-menu">
-                                            <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Enterprise overview</b></a></li>
-                                            <li class="tenth_section_item_details_withoutdropmenu"><a href="#"><b>Healthcare</b></a></li>
-                                          </ul>
-
-                                   
-                                
-                            </li>
-                                
-                            <li  class="tenth_section_item_details_withoutdropmenu" >
-                                <div style="display: flex; align-items: center; margin-top: -10px; margin-left: -6px;">
-                                    <img src="./image/videoask.png" style="width: 20px; height: 20px;margin-top: -5px;">
-                                    <p><b>Videosack</b></p>
-                                </div>
-                                
-                            </li>
-                        </ul>
-                    </div>
+                  <img src="./image/chevron-down-white.svg" />
                 </div>
+                <ul class="dropdown-menu">
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Enterprise overview</b></a>
+                  </li>
+                  <li class="tenth_section_item_details_withoutdropmenu">
+                    <a href="#"><b>Healthcare</b></a>
+                  </li>
+                </ul>
+              </li>
 
-                <div class="tenth_section_item" style="width: 200px;">
-
-                    <div class="tenth_section_item_title"><b>TEMPLATES</b>
-
-                    </div>
-
-                    <div class="tenth_section_item_details">
-
-                        <ul>
-
-                            <li class="tenth_section_item_li_dropmenu">
-                                
-                               
-                                <div href="#" class="tenth_section_item_details_dropdown" data-toggle="dropdown">
-                                    <b>Popular Templates</b>
-
-                               
-                                    <img src="./image/chevron-down-white.svg">
-                                </div>
-                                    <ul class="dropdown-menu">
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Interactive story template</b></a></li>
-                                       
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; " ><a href="#"><b>Trivia quiz</b></a></li>
-                                      
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Job application form</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Event registration form</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>NPS survey</b></a></li> 
-                                    
-                                    
-                                    </ul>
-
-                               
-                            
-                            </li>
-
-                            <li class="tenth_section_item_li_dropmenu">
-                                    
-                                
-                                <div href="#" class="tenth_section_item_details_dropdown" data-toggle="dropdown">
-                                    <b>Recent templates</b>
-
-                            
-                                    <img src="./image/chevron-down-white.svg">
-                                </div>
-                                    <ul class="dropdown-menu">
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Photo upload form</b></a></li>                                 
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; " ><a href="#"><b>Customer satisfaction form</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>websitequestionnaire template</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Beta product feedback survey</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Pre-order from template</b></a></li> 
-                                    
-                                    
-                                    </ul>
-
-                            
-                            
-                            </li>
-
-                            <li class="tenth_section_item_li_dropmenu">
-                                        
-                                    
-                                <div href="#" class="tenth_section_item_details_dropdown" data-toggle="dropdown">
-                                    <b>Popular categories</b>
-
-                            
-                                    <img src="./image/chevron-down-white.svg">
-                                </div>
-                                    <ul class="dropdown-menu">
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Lead gen forms</b></a></li>                                 
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; " ><a href="#"><b>Lead gen quizzes</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Registration forms</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Customer success forms</b></a></li> 
-                                    
-                                    
-                                    </ul>
-
-                            
-                            
-                            </li>
-
-                            <li class="tenth_section_item_li_dropmenu">
-                                        
-                                    
-                                <div href="#" class="tenth_section_item_details_dropdown" data-toggle="dropdown">
-                                    <b>Recent categories</b>
-
-                            
-                                    <img src="./image/chevron-down-white.svg">
-                                </div>
-                                    <ul class="dropdown-menu">
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>File upload forms</b></a></li>                                 
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; " ><a href="#"><b>Job application forms</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Application forms</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Event forms</b></a></li> 
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Educational templates</b></a></li>
-                                    
-                                    </ul>
-
-                            
-                            
-                            </li>
-
-
-
-
-                        </ul>
-
-
-
-                    </div>
-
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    margin-top: -10px;
+                    margin-left: -6px;
+                  "
+                >
+                  <img
+                    src="./image/videoask.png"
+                    style="width: 20px; height: 20px; margin-top: -5px"
+                  />
+                  <p><b>Videosack</b></p>
                 </div>
-
-
-                <div class="tenth_section_item" style="width: 200px;">
-
-                    <div class="tenth_section_item_title"><b>INTEGRATIONS</b>
-
-                    </div>
-
-                    <div class="tenth_section_item_details">
-
-                        <ul>
-
-                            <li class="tenth_section_item_li_dropmenu">
-                                
-                               
-                                <div href="#" class="tenth_section_item_details_dropdown" data-toggle="dropdown">
-                                    <b>Popular integrations apps</b>
-
-                               
-                                    <img src="./image/chevron-down-white.svg">
-                                </div>
-                                    <ul class="dropdown-menu">
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Slack Integrations</b></a></li>
-                                       
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; " ><a href="#"><b>Mailchimp Integrations</b></a></li>
-                                      
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Klaviyo Integration</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>WordPress Integration</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>PipeDrive Integration</b></a></li> 
-                                    
-                                    
-                                    </ul>
-
-                               
-                            
-                            </li>
-
-                            <li class="tenth_section_item_li_dropmenu">
-                                    
-                                
-                                <div href="#" class="tenth_section_item_details_dropdown" data-toggle="dropdown">
-                                    <b>More integration apps</b>
-
-                            
-                                    <img src="./image/chevron-down-white.svg">
-                                </div>
-                                    <ul class="dropdown-menu">
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Google Calendar Integration</b></a></li>                                 
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; " ><a href="#"><b>Zoho Integration</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Office 365 Integration</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Zendesk Integration</b></a></li>                                    
-                                    
-                                    </ul>
-
-                            
-                            
-                            </li>
-
-                            <li class="tenth_section_item_li_dropmenu">
-                                        
-                                    
-                                <div href="#" class="tenth_section_item_details_dropdown" data-toggle="dropdown">
-                                    <b>Popular app categories</b>
-
-                            
-                                    <img src="./image/chevron-down-white.svg">
-                                </div>
-                                    <ul class="dropdown-menu">
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Analytics Reporting Integration</b></a></li>                                 
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; " ><a href="#"><b>Sales and CRM Integration</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Payments Integration</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Scheduling Integration</b></a></li> 
-                                        
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Email Marketing Integration</b></a></li> 
-                                    
-                                    
-                                    </ul>
-
-                            
-                            
-                            </li>
-
-                            <li class="tenth_section_item_li_dropmenu">
-                                        
-                                    
-                                <div href="#" class="tenth_section_item_details_dropdown" data-toggle="dropdown">
-                                    <b>More app categories</b>
-
-                            
-                                    <img src="./image/chevron-down-white.svg">
-                                </div>
-                                    <ul class="dropdown-menu">
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Customer Support Integration</b></a></li>                                 
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; " ><a href="#"><b>Automation Integration</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Documents Integration</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Rewards Integration</b></a></li> 
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Collaboration Integration</b></a></li>
-                                    
-                                    </ul>
-
-                            
-                            
-                            </li>
-
-
-
-
-                        </ul>
-
-
-
-                    </div>
-
-                </div>
-
-
-
-                <div class="tenth_section_item" style="width: 200px;">
-
-                    <div class="tenth_section_item_title"><b>RESOURCES</b>
-
-                    </div>
-
-                    <div class="tenth_section_item_details">
-
-                        <ul>
-
-                            <li class="tenth_section_item_details_withoutdropmenu" ><b>Blog</b></li>
-                            <li class="tenth_section_item_details_withoutdropmenu" ><b>Help center</b></li>
-                            <li class="tenth_section_item_details_withoutdropmenu" ><b>Community</b></li>
-                            <li class="tenth_section_item_details_withoutdropmenu" ><b>Tutorials</b></li>
-                            <li class="tenth_section_item_details_withoutdropmenu" ><b>FAQs</b></li>
-
-                            <li class="tenth_section_item_li_dropmenu">
-                                
-                               
-                                <div href="#" class="tenth_section_item_details_dropdown" data-toggle="dropdown">
-                                    <b>Why Typeform</b>
-
-                               
-                                    <img src="./image/chevron-down-white.svg">
-                                </div>
-                                    <ul class="dropdown-menu">
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Slack Integrations</b></a></li>
-                                       
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; " ><a href="#"><b>Mailchimp Integrations</b></a></li>
-                                      
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Klaviyo Integration</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>WordPress Integration</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>PipeDrive Integration</b></a></li> 
-                                    
-                                    
-                                    </ul>
-
-                               
-                            
-                            </li>
-
-                            <li class="tenth_section_item_details_withoutdropmenu" ><b>Referral program</b></li>
-
-                            <li class="tenth_section_item_li_dropmenu">
-                                    
-                                
-                                <div href="#" class="tenth_section_item_details_dropdown" data-toggle="dropdown">
-                                    <b>Partners</b>
-
-                            
-                                    <img src="./image/chevron-down-white.svg">
-                                </div>
-                                    <ul class="dropdown-menu">
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Google Calendar Integration</b></a></li>                                 
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; " ><a href="#"><b>Zoho Integration</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Office 365 Integration</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Zendesk Integration</b></a></li>                                    
-                                    
-                                    </ul>
-
-                            
-                            
-                            </li>
-
-                            <li class="tenth_section_item_details_withoutdropmenu" ><b>System status</b></li>
-
-                            <li class="tenth_section_item_details_withoutdropmenu" ><b>Developers / API</b></li>
-
-                           
-
-
-
-                        </ul>
-
-
-
-                    </div>
-
-                </div>
-
-
-
-
-                <div class="tenth_section_item" style="width: 200px;">
-
-                    <div class="tenth_section_item_title"><b>GET TO KNOW US</b>
-
-                    </div>
-
-                    <div class="tenth_section_item_details">
-
-                        <ul>
-
-                            <li class="tenth_section_item_details_withoutdropmenu" ><b>About us</b></li>
-                            <li class="tenth_section_item_details_withoutdropmenu" ><b>Brand</b></li>
-                            <li class="tenth_section_item_details_withoutdropmenu" ><b>Careers</b></li>
-                            <li class="tenth_section_item_details_withoutdropmenu" ><b>Contact sales</b></li>
-                            <li class="tenth_section_item_details_withoutdropmenu" ><b>News</b></li>
-
-                            <li class="tenth_section_item_li_dropmenu">
-                                
-                               
-                                <div href="#" class="tenth_section_item_details_dropdown" data-toggle="dropdown">
-                                    <b>Terms & conditions</b>
-
-                               
-                                    <img src="./image/chevron-down-white.svg">
-                                </div>
-                                    <ul class="dropdown-menu">
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Slack Integrations</b></a></li>
-                                       
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; " ><a href="#"><b>Mailchimp Integrations</b></a></li>
-                                      
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>Klaviyo Integration</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>WordPress Integration</b></a></li>
-                                        <li class="tenth_section_item_details_withoutdropmenu" style="margin-top: 15px; margin-bottom: 15px; "><a href="#"><b>PipeDrive Integration</b></a></li> 
-                                    
-                                    
-                                    </ul>
-
-                               
-                            
-                            </li>
-
-                            <li class="tenth_section_item_details_withoutdropmenu" ><b>Typeform (es)</b></li>
-
-                        
-
-                            <li class="tenth_section_item_details_withoutdropmenu" ><b>Newsletter</b></li>
-
-                            <li>
-                                <div style="display: flex;">
-                                    <a href="#"><img style="width: 17px; height: 17px; margin-right: 10px;" src="./image/facebook-footer.png">
-                                    </a>
-                                    <a href="#"><img style="width: 21px; height: 21px; margin-right: 10px;" src="./image/insta-footer.png">
-                                    </a>
-                                    <a href="#"><img style="width: 21px; height: 21px; margin-right: 10px;" src="./image/youtube-footer.png">
-                                    </a>
-                                    <a href="#"><img style="width: 21px; height: 21px;" src="./image/linkedin.png">
-                                    </a>
-                                </div>
-                            </li>
-
-
-
-
-                           
-
-
-
-                        </ul>
-
-
-
-                    </div>
-
-                </div>
-
-
-                
-
-
-
-
-            </div>
-
+              </li>
+            </ul>
+          </div>
         </div>
 
+        <div class="tenth_section_item" style="width: 200px">
+          <div class="tenth_section_item_title"><b>TEMPLATES</b></div>
 
-        <div style="background-color:  #3c3b3b; height: 1px; position: relative;"></div>
+          <div class="tenth_section_item_details">
+            <ul>
+              <li class="tenth_section_item_li_dropmenu">
+                <div
+                  href="#"
+                  class="tenth_section_item_details_dropdown"
+                  data-toggle="dropdown"
+                >
+                  <b>Popular Templates</b>
 
-        <div class="eleventh_section" style=" height: 120px; background-color:  rgb(24, 22, 22);">
-
-            <div style="padding-top: 40px;" class="eleventh_section_box">
-                <div style="color: white; display: flex; align-items: center;">
-                    <img  style="width: 15px; height: 15px; margin-right: 5px;" src="./image/map-pin.svg">
-                    <div style=" font-size:11.5px ;">With love, from Barcelona</div>
+                  <img src="./image/chevron-down-white.svg" />
                 </div>
-                <div style="color: white; display: flex; align-items: center;">
-                    <img  style="width: 15px; height: 15px; margin-right: 5px;" src="./image/earth.svg">
-                    <div style=" font-size:11.5px ;">English</div>
+                <ul class="dropdown-menu">
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Interactive story template</b></a>
+                  </li>
+
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Trivia quiz</b></a>
+                  </li>
+
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Job application form</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Event registration form</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>NPS survey</b></a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="tenth_section_item_li_dropmenu">
+                <div
+                  href="#"
+                  class="tenth_section_item_details_dropdown"
+                  data-toggle="dropdown"
+                >
+                  <b>Recent templates</b>
+
+                  <img src="./image/chevron-down-white.svg" />
                 </div>
-                <div >
-                    <a style="text-decoration: underline; color: white; font-size:11.5px" href="#">Cookie Settings</a>
+                <ul class="dropdown-menu">
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Photo upload form</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Customer satisfaction form</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>websitequestionnaire template</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Beta product feedback survey</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Pre-order from template</b></a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="tenth_section_item_li_dropmenu">
+                <div
+                  href="#"
+                  class="tenth_section_item_details_dropdown"
+                  data-toggle="dropdown"
+                >
+                  <b>Popular categories</b>
+
+                  <img src="./image/chevron-down-white.svg" />
                 </div>
-                <div >
-                    <a style="text-decoration: underline; color: white; font-size:11.5px" href="#">Check our Cookie Policy to delete cookies</a>
+                <ul class="dropdown-menu">
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Lead gen forms</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Lead gen quizzes</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Registration forms</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Customer success forms</b></a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="tenth_section_item_li_dropmenu">
+                <div
+                  href="#"
+                  class="tenth_section_item_details_dropdown"
+                  data-toggle="dropdown"
+                >
+                  <b>Recent categories</b>
+
+                  <img src="./image/chevron-down-white.svg" />
                 </div>
-
-                <div >
-                    <a style="text-decoration: underline; color: white; font-size:11.5px" href="#">Report abuse</a>
-
-                </div>
-
-                <div style="color: white; display: flex; align-items: center;">
-                    <img  style="width: 15px; height: 15px; margin-right: 5px;" src="./image/earth.svg">
-                    <div style=" font-size:11.5px ;">Typeform</div>
-                </div>
-
-                
-
-
-            </div>
-
-
+                <ul class="dropdown-menu">
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>File upload forms</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Job application forms</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Application forms</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Event forms</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Educational templates</b></a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
 
+        <div class="tenth_section_item" style="width: 200px">
+          <div class="tenth_section_item_title"><b>INTEGRATIONS</b></div>
 
+          <div class="tenth_section_item_details">
+            <ul>
+              <li class="tenth_section_item_li_dropmenu">
+                <div
+                  href="#"
+                  class="tenth_section_item_details_dropdown"
+                  data-toggle="dropdown"
+                >
+                  <b>Popular integrations apps</b>
 
+                  <img src="./image/chevron-down-white.svg" />
+                </div>
+                <ul class="dropdown-menu">
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Slack Integrations</b></a>
+                  </li>
 
-       
-        <script>
-            $(".tenth_section_item_li_dropmenu>[data-toggle='dropdown']").on('click', function(){
-             $(this).parent(".tenth_section_item_li_dropmenu").toggleClass("open");
-            });
-        </script>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Mailchimp Integrations</b></a>
+                  </li>
 
-        
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Klaviyo Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>WordPress Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>PipeDrive Integration</b></a>
+                  </li>
+                </ul>
+              </li>
 
+              <li class="tenth_section_item_li_dropmenu">
+                <div
+                  href="#"
+                  class="tenth_section_item_details_dropdown"
+                  data-toggle="dropdown"
+                >
+                  <b>More integration apps</b>
 
+                  <img src="./image/chevron-down-white.svg" />
+                </div>
+                <ul class="dropdown-menu">
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Google Calendar Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Zoho Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Office 365 Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Zendesk Integration</b></a>
+                  </li>
+                </ul>
+              </li>
 
+              <li class="tenth_section_item_li_dropmenu">
+                <div
+                  href="#"
+                  class="tenth_section_item_details_dropdown"
+                  data-toggle="dropdown"
+                >
+                  <b>Popular app categories</b>
 
+                  <img src="./image/chevron-down-white.svg" />
+                </div>
+                <ul class="dropdown-menu">
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Analytics Reporting Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Sales and CRM Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Payments Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Scheduling Integration</b></a>
+                  </li>
 
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Email Marketing Integration</b></a>
+                  </li>
+                </ul>
+              </li>
 
-    </body>
+              <li class="tenth_section_item_li_dropmenu">
+                <div
+                  href="#"
+                  class="tenth_section_item_details_dropdown"
+                  data-toggle="dropdown"
+                >
+                  <b>More app categories</b>
+
+                  <img src="./image/chevron-down-white.svg" />
+                </div>
+                <ul class="dropdown-menu">
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Customer Support Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Automation Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Documents Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Rewards Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Collaboration Integration</b></a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tenth_section_item" style="width: 200px">
+          <div class="tenth_section_item_title"><b>RESOURCES</b></div>
+
+          <div class="tenth_section_item_details">
+            <ul>
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <b>Blog</b>
+              </li>
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <b>Help center</b>
+              </li>
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <b>Community</b>
+              </li>
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <b>Tutorials</b>
+              </li>
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <b>FAQs</b>
+              </li>
+
+              <li class="tenth_section_item_li_dropmenu">
+                <div
+                  href="#"
+                  class="tenth_section_item_details_dropdown"
+                  data-toggle="dropdown"
+                >
+                  <b>Why Typeform</b>
+
+                  <img src="./image/chevron-down-white.svg" />
+                </div>
+                <ul class="dropdown-menu">
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Slack Integrations</b></a>
+                  </li>
+
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Mailchimp Integrations</b></a>
+                  </li>
+
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Klaviyo Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>WordPress Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>PipeDrive Integration</b></a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <b>Referral program</b>
+              </li>
+
+              <li class="tenth_section_item_li_dropmenu">
+                <div
+                  href="#"
+                  class="tenth_section_item_details_dropdown"
+                  data-toggle="dropdown"
+                >
+                  <b>Partners</b>
+
+                  <img src="./image/chevron-down-white.svg" />
+                </div>
+                <ul class="dropdown-menu">
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Google Calendar Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Zoho Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Office 365 Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Zendesk Integration</b></a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <b>System status</b>
+              </li>
+
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <b>Developers / API</b>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tenth_section_item" style="width: 200px">
+          <div class="tenth_section_item_title"><b>GET TO KNOW US</b></div>
+
+          <div class="tenth_section_item_details">
+            <ul>
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <b>About us</b>
+              </li>
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <b>Brand</b>
+              </li>
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <b>Careers</b>
+              </li>
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <b>Contact sales</b>
+              </li>
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <b>News</b>
+              </li>
+
+              <li class="tenth_section_item_li_dropmenu">
+                <div
+                  href="#"
+                  class="tenth_section_item_details_dropdown"
+                  data-toggle="dropdown"
+                >
+                  <b>Terms & conditions</b>
+
+                  <img src="./image/chevron-down-white.svg" />
+                </div>
+                <ul class="dropdown-menu">
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Slack Integrations</b></a>
+                  </li>
+
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Mailchimp Integrations</b></a>
+                  </li>
+
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>Klaviyo Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>WordPress Integration</b></a>
+                  </li>
+                  <li
+                    class="tenth_section_item_details_withoutdropmenu"
+                    style="margin-top: 15px; margin-bottom: 15px"
+                  >
+                    <a href="#"><b>PipeDrive Integration</b></a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <b>Typeform (es)</b>
+              </li>
+
+              <li class="tenth_section_item_details_withoutdropmenu">
+                <b>Newsletter</b>
+              </li>
+
+              <li>
+                <div style="display: flex">
+                  <a href="#"
+                    ><img
+                      style="width: 17px; height: 17px; margin-right: 10px"
+                      src="./image/facebook-footer.png"
+                    />
+                  </a>
+                  <a href="#"
+                    ><img
+                      style="width: 21px; height: 21px; margin-right: 10px"
+                      src="./image/insta-footer.png"
+                    />
+                  </a>
+                  <a href="#"
+                    ><img
+                      style="width: 21px; height: 21px; margin-right: 10px"
+                      src="./image/youtube-footer.png"
+                    />
+                  </a>
+                  <a href="#"
+                    ><img
+                      style="width: 21px; height: 21px"
+                      src="./image/linkedin.png"
+                    />
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="background-color: #3c3b3b; height: 1px; position: relative"
+    ></div>
+
+    <div
+      class="eleventh_section"
+      style="height: 120px; background-color: rgb(24, 22, 22)"
+    >
+      <div style="padding-top: 40px" class="eleventh_section_box">
+        <div style="color: white; display: flex; align-items: center">
+          <img
+            style="width: 15px; height: 15px; margin-right: 5px"
+            src="./image/map-pin.svg"
+          />
+          <div style="font-size: 11.5px">With love, from Barcelona</div>
+        </div>
+        <div style="color: white; display: flex; align-items: center">
+          <img
+            style="width: 15px; height: 15px; margin-right: 5px"
+            src="./image/earth.svg"
+          />
+          <div style="font-size: 11.5px">English</div>
+        </div>
+        <div>
+          <a
+            style="text-decoration: underline; color: white; font-size: 11.5px"
+            href="#"
+            >Cookie Settings</a
+          >
+        </div>
+        <div>
+          <a
+            style="text-decoration: underline; color: white; font-size: 11.5px"
+            href="#"
+            >Check our Cookie Policy to delete cookies</a
+          >
+        </div>
+
+        <div>
+          <a
+            style="text-decoration: underline; color: white; font-size: 11.5px"
+            href="#"
+            >Report abuse</a
+          >
+        </div>
+
+        <div style="color: white; display: flex; align-items: center">
+          <img
+            style="width: 15px; height: 15px; margin-right: 5px"
+            src="./image/earth.svg"
+          />
+          <div style="font-size: 11.5px">Typeform</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(".tenth_section_item_li_dropmenu>[data-toggle='dropdown']").on(
+        "click",
+        function () {
+          $(this).parent(".tenth_section_item_li_dropmenu").toggleClass("open");
+        }
+      );
+    </script>
+  </body>
 </html>
